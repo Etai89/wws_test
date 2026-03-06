@@ -1117,13 +1117,7 @@
         }
 
         function copyScraperCode() {
-            const code = document.getElementById('scraper-source').textContent;
-            navigator.clipboard.writeText(code).then(() => {
-                showToast("📋 הקוד הועתק! הדבק אותו בקונסול של וואצאפ ווב.");
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-                alert("שגיאה בהעתקה. נסה שוב.");
-            });
+            alert("בגרסא המלאה כאן יהיה הקוד שאיתו אתה משיג את כל הלידים מקבוצות הוואצאפ שלך")
         }
 
         async function clearAllData() {
@@ -1270,4 +1264,5 @@
 })();
     </script>
 </body>
+
 </html>
